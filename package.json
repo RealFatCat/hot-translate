@@ -7,5 +7,198 @@
   "license": "MPL 2.0",
   "version": "0.2",
   "homepage": "https://github.com/RealFatCat/hot-translate",
-  "icon": "./data/icon-64.png"
+  "icon": "./data/icon-64.png",
+  "preferences": [ {
+    "name": "translateTo",
+    "title": "Translate into this language:",
+    "type": "menulist",
+    "value": 0,
+      "options": [
+        {
+          "label": "Russian",
+          "value": "ru"
+        },
+        {
+          "label": "Albanian",
+          "value": "sq"
+        },
+        {
+          "label": "Arabian",
+          "value": "ar"
+        },
+        {
+          "label": "Armenian",
+          "value": "hy"
+        },
+        {
+          "label": "Azeri",
+          "value": "az"
+        },
+        {
+          "label": "Belarusian",
+          "value": "be"
+        },
+        {
+          "label": "Bosnian",
+          "value": "bs"
+        },
+        {
+          "label": "Bulgarian",
+          "value": "bg"
+        },
+        {
+          "label": "Catalan",
+          "value": "ca"
+        },
+        {
+          "label": "Croatian",
+          "value": "hr"
+        },
+        {
+          "label": "Czech",
+          "value": "cs"
+        },
+        {
+          "label": "Chinese",
+          "value": "zh"
+        },
+        {
+          "label": "Danish",
+          "value": "da"
+        },
+        {
+          "label": "Dutch",
+          "value": "nl"
+        },
+        {
+          "label": "English",
+          "value": "en"
+        },
+        {
+          "label": "Estonian",
+          "value": "et"
+        },
+        {
+          "label": "Finnish",
+          "value": "fi"
+        },
+        {
+          "label": "French",
+          "value": "fr"
+        },
+        {
+          "label": "Georgian",
+          "value": "ka"
+        },
+        {
+          "label": "German",
+          "value": "de"
+        },
+        {
+          "label": "Greek",
+          "value": "el"
+        },
+        {
+          "label": "Hebrew",
+          "value": "he"
+        },
+        {
+          "label": "Hungarian",
+          "value": "hu"
+        },
+        {
+          "label": "Icelandic",
+          "value": "is"
+        },
+        {
+          "label": "Indonesian",
+          "value": "id"
+        },
+        {
+          "label": "Italian",
+          "value": "it"
+        },
+        {
+          "label": "Japanese",
+          "value": "ja"
+        },
+        {
+          "label": "Korean",
+          "value": "ko"
+        },
+        {
+          "label": "Latvian",
+          "value": "lv"
+        },
+        {
+          "label": "Lithuanian",
+          "value": "lt"
+        },
+        {
+          "label": "Macedonian",
+          "value": "mk"
+        },
+        {
+          "label": "Malay",
+          "value": "ms"
+        },
+        {
+          "label": "Maltese",
+          "value": "mt"
+        },
+        {
+          "label": "Norwegian",
+          "value": "no"
+        },
+        {
+          "label": "Polish",
+          "value": "pl"
+        },
+        {
+          "label": "Portuguese",
+          "value": "pt"
+        },
+        {
+          "label": "Romanian",
+          "value": "ro"
+        },
+        {
+          "label": "Spanish",
+          "value": "es"
+        },
+        {
+          "label": "Serbian",
+          "value": "sr"
+        },
+        {
+          "label": "Slovak",
+          "value": "sk"
+        },
+        {
+          "label": "Slovenian",
+          "value": "sl"
+        },
+        {
+          "label": "Swedish",
+          "value": "sv"
+        },
+        {
+          "label": "Thai",
+          "value": "th"
+        },
+        {
+          "label": "Turkish",
+          "value": "tr"
+        },
+        {
+          "label": "Ukrainian",
+          "value": "uk"
+        },
+        {
+          "label": "Vietnamese",
+          "value": "vi"
+        }
+      ]
+    }]
+
 }
