@@ -5,7 +5,7 @@
   "description": "Hot Translate is a simple translation addon.\nJust set language in preferences, select some text, press ALT+Q and you will see a notification window, with translated text. You can also select text and click on addon button. In that case, new tab with Yandex.Translate will be opened.\nThe list of supported languages is pretty long, because this addon uses Yandex.Translate API, as you can see.\nHope you will enjoy it ;)",
   "author": "Oleg Senin (RealFatCat)",
   "license": "MPL 2.0",
-  "version": "0.3",
+  "version": "0.4",
   "homepage": "https://github.com/RealFatCat/hot-translate",
   "icon": "./data/icon-64.png",
   "preferences": [ {
@@ -79,6 +79,10 @@
           "value": "et"
         },
         {
+          "label": "Persian",
+          "value": "fa"
+        },
+        {
           "label": "Finnish",
           "value": "fi"
         },
@@ -123,8 +127,16 @@
           "value": "ja"
         },
         {
+          "label": "Kazakh",
+          "value": "kk"
+        },
+        {
           "label": "Korean",
           "value": "ko"
+        },
+        {
+          "label": "Kirghiz",
+          "value": "ky"
         },
         {
           "label": "Latvian",
@@ -183,12 +195,20 @@
           "value": "sv"
         },
         {
+          "label": "Tajik",
+          "value": "tg"
+        },
+        {
           "label": "Thai",
           "value": "th"
         },
         {
           "label": "Turkish",
           "value": "tr"
+        },
+        {
+          "label": "Tatar",
+          "value": "tt"
         },
         {
           "label": "Ukrainian",
