@@ -5,7 +5,7 @@
   "description": "Hot Translate is a simple translation addon.\nJust set language in preferences, select some text, press ALT+Q and you will see a notification window, with translated text. You can also select text and click on addon button. In that case, new tab with Yandex.Translate will be opened.\nThe list of supported languages is pretty long, because this addon uses Yandex.Translate API, as you can see.\nHope you will enjoy it ;)",
   "author": "Oleg Senin (RealFatCat)",
   "license": "MPL 2.0",
-  "version": "0.4",
+  "version": "0.5",
   "homepage": "https://github.com/RealFatCat/hot-translate",
   "icon": "./data/icon-64.png",
   "preferences": [ {
@@ -17,6 +17,10 @@
         {
           "label": "Russian",
           "value": "ru"
+        },
+        {
+            "label": "Afrikaans",
+            "value": "af"
         },
         {
           "label": "Albanian",
@@ -33,6 +37,10 @@
         {
           "label": "Azeri",
           "value": "az"
+        },
+        {
+            "label": "Basque",
+            "value": "eu"
         },
         {
           "label": "Belarusian",
@@ -79,16 +87,16 @@
           "value": "et"
         },
         {
-          "label": "Persian",
-          "value": "fa"
-        },
-        {
           "label": "Finnish",
           "value": "fi"
         },
         {
           "label": "French",
           "value": "fr"
+        },
+        {
+            "label": "Galician",
+            "value": "gl"
         },
         {
           "label": "Georgian",
@@ -101,6 +109,10 @@
         {
           "label": "Greek",
           "value": "el"
+        },
+        {
+            "label": "Haitian (Creole)",
+            "value": "ht"
         },
         {
           "label": "Hebrew",
@@ -119,6 +131,10 @@
           "value": "id"
         },
         {
+            "label": "Irish",
+            "value": "ga"
+        },
+        {
           "label": "Italian",
           "value": "it"
         },
@@ -135,8 +151,12 @@
           "value": "ko"
         },
         {
-          "label": "Kirghiz",
-          "value": "ky"
+            "label": "Kyrgyz",
+            "value": "ky"
+        },
+        {
+            "label": "Latin",
+            "value": "la"
         },
         {
           "label": "Latvian",
@@ -159,8 +179,20 @@
           "value": "mt"
         },
         {
+            "label": "Malagasy",
+            "value": "mg"
+        },
+        {
+            "label": "Mongolian",
+            "value": "mn"
+        },
+        {
           "label": "Norwegian",
           "value": "no"
+        },
+        {
+          "label": "Persian",
+          "value": "fa"
         },
         {
           "label": "Polish",
@@ -191,8 +223,16 @@
           "value": "sl"
         },
         {
+            "label": "Swahili",
+            "value": "sw"
+        },
+        {
           "label": "Swedish",
           "value": "sv"
+        },
+        {
+            "label": "Tagalog",
+            "value": "tl"
         },
         {
           "label": "Tajik",
@@ -215,8 +255,16 @@
           "value": "uk"
         },
         {
+            "label": "Uzbek",
+            "value": "uz"
+        },
+        {
           "label": "Vietnamese",
           "value": "vi"
+        },
+        {
+            "label": "Welsh",
+            "value": "cy"
         }
       ]
     }]
