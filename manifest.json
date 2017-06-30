@@ -9,12 +9,18 @@
     "64": "data/icon-64.png"
   },
   "background": {
-    "scripts": ["lib/background-script.js"]
+    "scripts": [
+      "lib/vendor/browser-polyfill.min.js",
+      "lib/background-script.js"
+    ]
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["lib/content-script.js"]
+      "js": [
+        "lib/vendor/browser-polyfill.min.js",
+        "lib/content-script.js"
+      ]
     }
   ],
   "commands": {
@@ -40,7 +46,7 @@
   }
   // "applications": {
   //   "gecko": {
-  //     "id": "jid1-0kYwsIOqR8Ao0w"
+  //     "id": "francesco.valente@alcacoop.it"
   //   }
   // }
 
